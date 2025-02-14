@@ -4,7 +4,7 @@ body{
     font-family: 'Lateef', serif !important;
     background: linear-gradient(#FFEDFA,#E195AB);
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
 }
 
