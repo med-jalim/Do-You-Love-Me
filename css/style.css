@@ -8,13 +8,20 @@ body{
     position: relative;
 }
 
+
+header{
+    background: transparent !important;
+    backdrop-filter: blur(5px);
+    z-index: 122;
+}
 .form{
     background-color:#ffffff !important ;
     /* position: relative; */
     box-shadow: 5px 5px 30px #de3162;
     backdrop-filter: blur(20px);
+    
 }
-.form::before{
+/* .form::before{
     content: '';
     position: relative;
     top: 0;
@@ -27,7 +34,7 @@ body{
     z-index: 20;
     pointer-events: none;
     
-}
+} */
 .gif{
     pointer-events: none;
 }
